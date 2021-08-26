@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personalizada</title>
+    <style type="text/css">
+        body { font-family: Arial, Helvetica, sans-serif; font-size: 90%;
+            color: #666; background-color: #f8f8f8;
+        }
+        ul { width: 500px;}
+        li { list-style-image: url(images/nota_musical.png); line-height: 1.6em; margin: 20px;}
+        table { border-spacing: 0px;}
+        th, td { padding: 5px 30px 5px 10px; border-spacing: 0px;
+            font-size: 90%; margin: 0px;
+        }
+        th, td { text-align: left; background-color: #18F25D; border-top: 1px solid #f1f8fe;
+            border-bottom: 1px solid #cbd2d8; border-right: 1px solid #cbd2d8; color: black;
+        }
+        tr.head th { color: #fff; background-color: #17E894; border-bottom: 2px solid #547ca0;
+            border-right: 1px solid #749abe; border-top: 1px solid #90b4d6;
+            text-align: center; text-shadow: -1px -1px 1px #666666; letter-spacing: 0.15em;
+        }
+        td { text-shadow: 1px 1px 1px #ffffff;}
+        tr.even td, tr.even th { background-color: #21DB26; color: black}
+        tr.head th:first-child { -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px;
+            border-top-left-radius: 5px;
+        }
+        tr.head th:last-child { -webkit-border-top-right-radius: 5px; -moz-border-radius-topright: 5px;
+            border-top-right-radius: 5px;
+        }
+        fieldset { width: 310px; margin-top: 20px; border: 1px solid #d6d6d6;
+            background-color: #ffffff; line-height: 1.6em;
+        }
+        legend { font-size: italic; color: #666666;}
+        input [type="text"] { width: 120px; border: 1px solid #d6d6d6; padding: 2px; outline: none;}
+        input [type="text"]:focus, input [type="text"]:hover { 
+            background-color: black; border: 1px solid black; 
+        }
+        input [type="submit"] { 
+            border: 1px solid #006633; background-color: #009966; color: #ffffff;
+            border-radius: 5px; padding: 5px; margin-top: 10px; 
+        }
+        input [type="submit"]:hover {
+            border: 1px solid #006633; background-color: #00CC33;
+            color: #ffffff; cursor: pointer;
+        }
+        .title { float: left; width: 160px; clear: left;}
+        .submit { width: 310px; text-align: right;}
+    </style>
+</head>
+<body>
+    <h1>Cantantes Colombianos fallecidos trágicamente</h1>
+    <p>Hoy recordamos a varios artistas colombianos.</p>
+    <p>Los cuales han fallecido inesperadamente en homicidios o accidentes de tránsito.</p>
+    <ul>
+        <li><b>Kaleth Morales: </b>El ‘Rey de la nueva ola del vallenato’, tras un accidente de
+            tránsito cerca del municipio de Plato, Magdalena, cuando se dirigía de Cartagena a
+            Valledupar, junto a su hermano Keyner Morales, quien sobrevivió al siniestro.
+            Su deceso se produjo en una clínica de Cartagena, a donde fue remitido un
+            día antes en estado de coma.
+        </li>
+        <li><b>Rafael Orozco: </b>Lo asesinaron frente a su casa, el cantante de El Binomio de Oro
+            celebraba el cumpleaños de una de sus hijas cuando dos ayudantes de la agrupación llegaron
+            a buscarlo. Mientras hablaba con ellos, un sujeto le disparó varias veces. El caso fue
+            cerrado como un crimen pasional, pues según las investigaciones, Orozco se disputaba el
+            amor de una mujer con un narcotraficante.
+        </li>
+        <li><b>Patricia Teherán: </b>‘La diosa del vallenato’ murió en un accidente automovilístico,
+            cuando regresaba a Cartagena desde Barranquilla, donde acaba de firmar un contrato para
+            participar en el Carnaval de ese año. En inmediaciones del corregimiento Lomita Arena,
+            en Santa Catalina (Bolívar), una llanta del vehículo en el que se transportaba estalló
+            y volcó aparatosamente.
+        </li>
+        <li><b>Martín Elías: </b>Luego de un concierto en Coveñas, el cantante de vallenato,
+            hijo de Diomedes Díaz, sufrió un accidente automovilístico en la carretera que de
+            Tolú conduce a San Onofre, Sucre. Llegó vivo al hospital de este municipio y de allí
+            fue trasladado a una clínica de Sincelejo, donde falleció ese mismo día cerca de la 1 de la tarde.
+        </li>
+    </ul>
+    <table>
+        <tr class="head">
+            <th></th>
+            <th>Fecha de fallecimiento</th>
+            <th>Musica</th>
+        </tr>
+        <tr>
+            <th>Kaleth Morales</th>
+            <td>24 de agosto de 2005</td>
+            <td><iframe width="150" height="70" src="https://www.youtube.com/embed/wg8Eu9J7jKY">
+                </iframe>
+            </td>
+        </tr>
+        <tr class="even">
+            <th>Rafael Orozco</th>
+            <td>11 de junio de 1992</td>
+            <td><iframe width="150" height="70" src="https://www.youtube.com/embed/It5dxeKJS44">
+                </iframe>
+            </td>
+        </tr>
+        <tr>
+            <th>Patricia Teherán</th>
+            <td>19 de enero de 1995</td>
+            <td><iframe width="150" height="70" src="https://www.youtube.com/embed/sMfHw78cQ_8">
+                </iframe>
+            </td>
+        </tr>
+        <tr class="even">
+            <th>Martín Elías</th>
+            <td>14 de abril de 2017 <br /> (Viernes Santo)</td>
+            <td><iframe width="150" height="70" src="https://www.youtube.com/embed/fE93XNF0LSI">
+                </iframe>
+            </td>
+        </tr>
+    </table>
+    <form action="../index.html" method="GET">
+        <fieldset>
+            <legend>Si desea mas información:</legend>
+            <p> <label class="title" for="name">Su Nombre:</label>
+                <input type="text" name="name" id="name">
+                <br />
+                <label class="title" for="email">Su Correo:</label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p> <label for="location" class="title">Artista:</label>
+                <select name="location" id="location">
+                    <option value="ny">Kaleth Morales</option>
+                    <option value="il">Rafael Orozco</option>
+                    <option value="ca">Patricia Teherán</option>
+                    <option value="ca">Martín Elías	</option>
+                </select>  
+            </p>
+            <span class="title">Es Artista?</span>
+            <label> <input type="radio" name="member" value="yes" /> Si</label>
+            <label> <input type="radio" name="member" value="no" /> No</label>
+        </fieldset>
+        <div class="submit"> <input type="submit" value="Registro" /></div>
+    </form>
+    <a href="../index.html"><img src="images/botonvolver.gif" width="50" height="50" align="left"></a>
+</body>
+</html>
